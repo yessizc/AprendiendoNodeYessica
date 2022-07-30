@@ -4,7 +4,7 @@ var data = JSON.stringify({
     "database": "POSTYESSICAZABALA",
     "dataSource": "Cluster0Ficha2364482",
     "projection": {
-        "_id": 1
+        "Nombre": "Alejandro Muñoz"
     }
 });
 
