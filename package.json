@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/yessizc/AprendiendoNodeYessica#readme",
   "dependencies": {
+    "axios": "^0.27.2",
     "express": "^4.18.1",
     "http": "^0.0.1-security",
     "mongodb": "^4.8.1",
