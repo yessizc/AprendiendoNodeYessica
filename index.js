@@ -1,3 +1,8 @@
-var servidor = require('./server');
+/*var servidor = require('./server');
 
-servidor.iniciar()
+servidor.iniciar()*/
+
+const express = require('express');
+const app = express(); //constructor 
+
+app.listen(7575);

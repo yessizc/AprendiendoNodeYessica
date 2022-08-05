@@ -1,16 +1,23 @@
-/*var axios = require('axios');
+var axios = require('axios');
 var data = JSON.stringify({
     "collection": "APRENDICES",
     "database": "POSTYESSICAZABALA",
     "dataSource": "Cluster0Ficha2364482",
-    "projection": {
-        "Nombre": "Alejandro Muñoz"
+    "filter": { "Cedula": 1020439 },
+    "update": {
+        "$set": {
+            "Nombre": "Yessicaaaaaa",
+
+
+        }
     }
+
+
 });
 
 var config = {
     method: 'post',
-    url: 'https://data.mongodb-api.com/app/data-pqidv/endpoint/data/v1/action/findOne',
+    url: 'https://data.mongodb-api.com/app/data-pqidv/endpoint/data/v1/action/updateOne',
     headers: {
         'Content-Type': 'application/json',
         'Access-Control-Request-Headers': '*',
@@ -25,9 +32,4 @@ axios(config)
     })
     .catch(function(error) {
         console.log(error);
-    });*/
-
-const { MongoClien } = require("mongodb");
-
-const uri =
-    "mongodb+srv://yessi:1020439983@cluster0ficha2364482.6co19r0.mongodb.net/?retryWrites=true&w=majority"
+    });
